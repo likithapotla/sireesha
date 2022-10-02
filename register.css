@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(/hello-word-cloud-in-different-languages-clipart-vector_csp87502159.webp);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+div{
+    font-family: monospace;
+    font-size: 24px;
+    color: black;
+    margin: 10px;
+}
+.container{
+    padding: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.8));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+#Register{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: aquamarine;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#Register:hover{
+    background-color: limegreen;
+    transition: .5s;
+}
